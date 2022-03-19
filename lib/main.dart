@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
+// ignore: import_of_legacy_library_into_null_safe
 import 'package:splashscreen/splashscreen.dart';
 
 void main() {
@@ -31,7 +32,7 @@ class SplashScreenPage extends StatelessWidget {
         textScaleFactor: 2,
       ),
       image: new Image.network(''),
-      Fit: BoxFit.cover,
+      fit: BoxFit.cover,
       loadingText: Text("Loading"),
       photoSize: 150.0,
       loaderColor: Colors.red,
